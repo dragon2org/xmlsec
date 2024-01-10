@@ -1,11 +1,11 @@
 package dsig
 
 import (
+	"github.com/dragon2org/xmlsec"
+	"github.com/dragon2org/xmlsec/clib"
+	"github.com/dragon2org/xmlsec/crypto"
 	"github.com/lestrrat-go/libxml2/parser"
 	"github.com/lestrrat-go/libxml2/xpath"
-	"github.com/lestrrat-go/xmlsec"
-	"github.com/lestrrat-go/xmlsec/clib"
-	"github.com/lestrrat-go/xmlsec/crypto"
 )
 
 func NewSignatureVerify() (*SignatureVerify, error) {

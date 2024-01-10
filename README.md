@@ -1,5 +1,7 @@
 # xmlsec
 
+## 将大佬的项目改为 `gomod` 管理
+
 xmlsec is a Go binding for XML Security Library (https://www.aleksey.com/xmlsec/index.html)
 
 [![Build Status](https://travis-ci.org/lestrrat-go/xmlsec.svg?branch=master)](https://travis-ci.org/lestrrat-go/xmlsec)
